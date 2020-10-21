@@ -1,0 +1,26 @@
+body{
+    background: #333;
+    color: white;
+}
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    background:#292b2c;
+    opacity: 0.7;
+}
+#section-HOME{
+    background:url(../img/home.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height:700px;
+}
+#section-HOME .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height:700px;
+}
+#section-HOME .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#section-HOME .fas{
+    font-size: 30px;
+}
